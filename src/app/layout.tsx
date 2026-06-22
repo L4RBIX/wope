@@ -20,8 +20,8 @@ const rebondGrotesque = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Wope: The New Era of SEO Research",
-  description: "Elevate your marketing strategy with Wope's AI-driven research tools. Enjoy a 14-day unlimited trial to explore features like backlink analysis, SEO keyword insights, and content generation.",
+  title: "SolveX · Codeforces Performance Intelligence",
+  description: "SolveX analyzes your public Codeforces submissions to detect friction areas, find blind spots, and generate a focused 7-day training plan. No login required.",
   icons: {
     icon: "/seo/favicon-light.png",
   },
@@ -37,7 +37,7 @@ export default function RootLayout({
       lang="en"
       className={`${interV.variable} ${rebondGrotesque.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-wope-bg text-white">{children}</body>
+      <body className="min-h-full flex flex-col text-white" style={{ backgroundColor: "#050A08" }}>{children}</body>
     </html>
   );
 }
